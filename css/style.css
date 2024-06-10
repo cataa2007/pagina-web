@@ -1,0 +1,126 @@
+
+.cardsProductos {
+    border: 4px solid blueviolet;
+    background-color: white;
+    text-align: center;
+    margin: 15px 5px;
+    padding: 5px 5px;
+
+}
+
+.imagenCard {
+    width: 200px;
+    height: 200px;
+}
+
+.imagenCard2 {
+    width: 200px;
+    height: 400px;
+}
+
+h1 {
+    text-align: center;
+}
+
+span {
+    background-color: blueviolet;
+}
+
+.bandejaEntrada {
+   
+    border: 4px solid blueviolet;
+    background-color: white;
+    text-align: center;
+    width: 500px; 
+    margin: 5px auto;
+    padding: 5px 5px;
+
+}
+
+.contenedor {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+}
+
+.divContenedor {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+}
+
+/* .precio {
+    font-weight: bold;
+    margin: 10px 100px;
+    font-size: larger;
+} */
+
+button{
+    background-color: violet;
+    padding: 5px 5px;
+}
+
+.botonCompra {
+    padding: 10px 10px;
+    
+}
+
+ul li{
+    list-style: none;
+    display: inline;
+    padding: 2px 50px;
+    font-size: 20px;
+}
+
+header {
+    background-color: #c666fa;
+}
+
+a {
+    color: #4e116e;
+}
+
+.aProductos:hoover {
+    font-size: 25px;
+    color: #65228a;
+    transition: all 300ms ease;
+}
+
+a:hover {
+    font-size: 25px;
+    color: #6d4285;
+    transition: all 300ms ease;
+}
+
+.imagenPortada {
+    width: 100%;
+}
+
+@media(max-width: 768px) {
+    .divContenedor {
+        display: block;
+        max-width: 300px;
+    }
+    .cardsProductos {
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+}
+
+@media(max-width: 768px) {
+    .contenedor {
+        display: block;
+        max-width: 300px;
+    }
+    .bandejaEntrada {
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+}
+
+@media(max-width: 768px) {
+    header {
+        display: block;
+        max-width: 300px;
+    }
+}
